@@ -9,6 +9,10 @@
 - **Applying:** Build a working safety alert using MicroPython.
 - **Creating:** Design your own version with new icons and sounds.
 
+## 📷 What is a Micro:bit?
+![Labeled Micro:bit](images/microbit-labeled.png)
+*A labelled diagram of the BBC Micro:bit – showing the LED display, buttons A & B, reset button, and speaker.*
+
 ## 🔧 Coding Concepts Used
 - `print()`
 - `display.scroll()`
@@ -22,6 +26,8 @@
 
 ## 💡 Why This Project Matters
 Children will learn how to use the Micro:bit to create a small device that shows alerts. It helps build logic, creativity, and real-world application thinking.
+
+---
 
 ## 🔥 Warm-up Challenges
 | Level | Task | Code |
@@ -44,11 +50,18 @@ for i in range(5, 0, -1):
 display.scroll("Hello World")
 ```
 
+---
+
 ## 🧩 Main Project Challenge
 **Build a simple safety alert system** that:
 - Shows a warning when Button A is pressed
 - Shows "All Clear" when Button B is pressed
 - Displays icons and plays sounds
+
+### 🖼️ What Happens When You Press Button A
+![Alert System Flow](images/button_a_flow_diagram.png)
+*This diagram shows how the Micro:bit reacts step-by-step when Button A is pressed.*
+
 
 ## ✅ Full MicroPython Code
 ```python
@@ -73,16 +86,32 @@ while True:
         display.clear()
 ```
 
+---
+
+## 🧠 Flowchart of the Program
+![Program Flowchart](images/safety_alert_flowchart.png)
+*This flowchart shows the main logic of your Micro:bit alert system.*
+
+
+## 🖼️ LED Icons Guide
+| Icon        | Description |
+|-------------|-------------|
+| 💀 Skull     | Warning! Something’s wrong |
+| 😀 Happy     | Everything is okay (All Clear) |
+
+
 ## 🚀 Remix Challenges
 - Change the messages (e.g., "Fire!", "Help!")
 - Use custom icons: `Image("09090:99999:99999:09990:00900")`
 - Try sound patterns or melodies
 - Add a reset function using both buttons
 
+
 ## 💬 Reflection Questions
 1. How does the Micro:bit know when a button is pressed?
 2. What could you use this alert system for in the real world?
 3. How would you improve this system?
+
 
 ## 🔗 Helpful Links
 - [Python Editor for Micro:bit](https://python.microbit.org/v/3)
@@ -91,4 +120,3 @@ while True:
 ---
 
 Happy coding! 🎉
-
